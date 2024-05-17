@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color:rgb(45, 43, 43);
+}
+
+.image{
+    display:inline;
+    
+}
