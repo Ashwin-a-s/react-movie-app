@@ -1,16 +1,14 @@
 {
-  "homepage":"https://Ashwin-a-s.github.io/react-movie-app",
+  "homepage": "https://Ashwin-a-s.github.io/react-movie-app",
   "name": "react-movie2-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d dist",
     "dev": "vite",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-      "predeploy": "npm run build",
-      "deploy": "gh-pages -d build",
-      "start": "react-scripts start",
-      "build": "react-scripts build",
+    "build": "react-scripts build",
     "preview": "vite preview"
   },
   "dependencies": {
